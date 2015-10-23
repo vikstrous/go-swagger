@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-swagger/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/spec"
 )
 
 type validationBuilder interface {

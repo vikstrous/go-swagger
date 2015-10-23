@@ -6,9 +6,9 @@ package user
 import (
 	"net/http"
 
-	"github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/httpkit/middleware"
-	"github.com/go-swagger/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/httpkit/middleware"
+	"github.com/vikstrous/go-swagger/strfmt"
 )
 
 // LoginUserParams contains all the bound params for the login user operation

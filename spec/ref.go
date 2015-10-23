@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/go-swagger/go-swagger/jsonreference"
+	"github.com/vikstrous/go-swagger/jsonreference"
 )
 
 type refable struct {

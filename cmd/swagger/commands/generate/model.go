@@ -3,7 +3,7 @@ package generate
 import (
 	"errors"
 
-	"github.com/go-swagger/go-swagger/generator"
+	"github.com/vikstrous/go-swagger/generator"
 )
 
 // Model the generate model file command

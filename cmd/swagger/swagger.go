@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/go-swagger/go-swagger/cmd/swagger/commands"
+	"github.com/vikstrous/go-swagger/cmd/swagger/commands"
 	"github.com/jessevdk/go-flags"
 )
 

@@ -6,8 +6,8 @@ package pet
 import (
 	"net/http"
 
-	"github.com/go-swagger/go-swagger/examples/generated/models"
-	"github.com/go-swagger/go-swagger/httpkit/middleware"
+	"github.com/vikstrous/go-swagger/examples/generated/models"
+	"github.com/vikstrous/go-swagger/httpkit/middleware"
 )
 
 // GetPetByIDHandlerFunc turns a function with the right signature into a get pet by i d handler

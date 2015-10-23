@@ -6,12 +6,12 @@ package {{ .Package }}
 
 import (
   "net/http"
-  "github.com/go-swagger/go-swagger/httpkit"
-  httpclient "github.com/go-swagger/go-swagger/httpkit/client"
-  "github.com/go-swagger/go-swagger/swag"
-  "github.com/go-swagger/go-swagger/errors"
-  "github.com/go-swagger/go-swagger/httpkit/validate"
-  "github.com/go-swagger/go-swagger/client"
+  "github.com/vikstrous/go-swagger/httpkit"
+  httpclient "github.com/vikstrous/go-swagger/httpkit/client"
+  "github.com/vikstrous/go-swagger/swag"
+  "github.com/vikstrous/go-swagger/errors"
+  "github.com/vikstrous/go-swagger/httpkit/validate"
+  "github.com/vikstrous/go-swagger/client"
 
   {{ range .DefaultImports }}{{ printf "%q" .}}
   {{ end }}

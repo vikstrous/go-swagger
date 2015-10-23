@@ -1,10 +1,10 @@
 package validate
 
 import (
-	"github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/internal/validate"
-	"github.com/go-swagger/go-swagger/spec"
-	"github.com/go-swagger/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/internal/validate"
+	"github.com/vikstrous/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/strfmt"
 )
 
 // Spec validates a spec document

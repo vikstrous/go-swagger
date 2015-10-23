@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-swagger/go-swagger/client"
-	"github.com/go-swagger/go-swagger/httpkit"
-	"github.com/go-swagger/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/client"
+	"github.com/vikstrous/go-swagger/httpkit"
+	"github.com/vikstrous/go-swagger/strfmt"
 )
 
 // NewRequest creates a new swagger http client request

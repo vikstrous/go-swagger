@@ -4,11 +4,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/httpkit"
-	"github.com/go-swagger/go-swagger/spec"
-	"github.com/go-swagger/go-swagger/strfmt"
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/httpkit"
+	"github.com/vikstrous/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 type typeValidator struct {

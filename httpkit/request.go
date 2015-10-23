@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 // CanHaveBody returns true if this method can have a body

@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-swagger/go-swagger/httpkit"
-	"github.com/go-swagger/go-swagger/spec"
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/httpkit"
+	"github.com/vikstrous/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 // GenerateServerOperation generates a parameter model, parameter validator, http handler implementations for a given operation

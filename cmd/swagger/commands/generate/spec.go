@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/go-swagger/go-swagger/scan"
-	"github.com/go-swagger/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/scan"
+	"github.com/vikstrous/go-swagger/spec"
 	"github.com/jessevdk/go-flags"
 )
 

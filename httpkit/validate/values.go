@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"unicode/utf8"
 
-	"github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/strfmt"
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 // Enum validates if the data is a member of the enum

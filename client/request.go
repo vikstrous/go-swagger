@@ -1,6 +1,6 @@
 package client
 
-import "github.com/go-swagger/go-swagger/strfmt"
+import "github.com/vikstrous/go-swagger/strfmt"
 
 // RequestWriterFunc converts a function to a request writer interface
 type RequestWriterFunc func(Request, strfmt.Registry) error

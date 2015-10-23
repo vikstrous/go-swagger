@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/go-swagger/go-swagger/spec"
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/swag"
 	"github.com/stretchr/testify/assert"
 )
 

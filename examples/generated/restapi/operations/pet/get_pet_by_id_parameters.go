@@ -6,10 +6,10 @@ package pet
 import (
 	"net/http"
 
-	"github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/httpkit/middleware"
-	"github.com/go-swagger/go-swagger/strfmt"
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/httpkit/middleware"
+	"github.com/vikstrous/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 // GetPetByIDParams contains all the bound params for the get pet by i d operation

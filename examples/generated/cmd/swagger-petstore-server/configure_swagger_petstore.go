@@ -3,14 +3,14 @@ package main
 import (
 	"io"
 
-	"github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/httpkit"
+	"github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/httpkit"
 
-	"github.com/go-swagger/go-swagger/examples/generated/models"
-	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations"
-	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations/pet"
-	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations/store"
-	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations/user"
+	"github.com/vikstrous/go-swagger/examples/generated/models"
+	"github.com/vikstrous/go-swagger/examples/generated/restapi/operations"
+	"github.com/vikstrous/go-swagger/examples/generated/restapi/operations/pet"
+	"github.com/vikstrous/go-swagger/examples/generated/restapi/operations/store"
+	"github.com/vikstrous/go-swagger/examples/generated/restapi/operations/user"
 )
 
 // This file is safe to edit. Once it exists it won't be overwritten

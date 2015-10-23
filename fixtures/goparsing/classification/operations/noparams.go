@@ -1,9 +1,9 @@
 package operations
 
 import (
-	"github.com/go-swagger/go-swagger/fixtures/goparsing/classification/models"
-	"github.com/go-swagger/go-swagger/fixtures/goparsing/classification/transitive/mods"
-	"github.com/go-swagger/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/fixtures/goparsing/classification/models"
+	"github.com/vikstrous/go-swagger/fixtures/goparsing/classification/transitive/mods"
+	"github.com/vikstrous/go-swagger/strfmt"
 )
 
 // An OrderBodyParams model.

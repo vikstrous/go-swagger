@@ -1,7 +1,7 @@
-Swagger 2.0 [![Circle CI](https://circleci.com/gh/go-swagger/go-swagger/tree/master.svg?style=svg)](https://circleci.com/gh/go-swagger/go-swagger/tree/master) [![Slack Status](https://slackin.goswagger.io/badge.svg)](https://slackin.goswagger.io)
+Swagger 2.0 [![Circle CI](https://circleci.com/gh/vikstrous/go-swagger/tree/master.svg?style=svg)](https://circleci.com/gh/vikstrous/go-swagger/tree/master) [![Slack Status](https://slackin.goswagger.io/badge.svg)](https://slackin.goswagger.io)
 ========================
 
-[![license](http://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://raw.githubusercontent.com/swagger-api/swagger-spec/master/LICENSE) [![GoDoc](https://godoc.org/github.com/go-swagger/go-swagger?status.svg)](http://godoc.org/github.com/go-swagger/go-swagger)
+[![license](http://img.shields.io/badge/license-Apache%20v2-orange.svg)](https://raw.githubusercontent.com/swagger-api/swagger-spec/master/LICENSE) [![GoDoc](https://godoc.org/github.com/vikstrous/go-swagger?status.svg)](http://godoc.org/github.com/vikstrous/go-swagger)
 
 This API is not stable yet, when it is stable it will be distributed over gopkg.in
 
@@ -21,11 +21,11 @@ Docs
 ----
 
 
-http://godoc.org/github.com/go-swagger/go-swagger
+http://godoc.org/github.com/vikstrous/go-swagger
 
 Install:
 
-    go get -u github.com/go-swagger/go-swagger/cmd/swagger
+    go get -u github.com/vikstrous/go-swagger/cmd/swagger
 
 The implementation also provides a number of command line tools to help working with swagger.
 
@@ -47,7 +47,7 @@ To generate a swagger spec document for a go application:
 
 Much improved documentation is in the works and will actually explain how to use this tool in much more depth.
 To learn about which annotations are available and how to use them for generating a spec from any go application
-(generating a spec is not opinionated), you can take a look at the files used for [testing the parser](https://github.com/go-swagger/go-swagger/tree/master/fixtures/goparsing/classification).
+(generating a spec is not opinionated), you can take a look at the files used for [testing the parser](https://github.com/vikstrous/go-swagger/tree/master/fixtures/goparsing/classification).
 
 
 There are several other sub commands available for the generate command

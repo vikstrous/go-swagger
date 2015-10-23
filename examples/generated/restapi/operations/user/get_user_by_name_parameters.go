@@ -6,9 +6,9 @@ package user
 import (
 	"net/http"
 
-	"github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/httpkit/middleware"
-	"github.com/go-swagger/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/httpkit/middleware"
+	"github.com/vikstrous/go-swagger/strfmt"
 )
 
 // GetUserByNameParams contains all the bound params for the get user by name operation

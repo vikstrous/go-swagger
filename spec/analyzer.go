@@ -3,7 +3,7 @@ package spec
 import (
 	"strings"
 
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 // type operationRef struct {

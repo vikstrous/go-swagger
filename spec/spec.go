@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"path/filepath"
 
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 //go:generate go-bindata -pkg=spec -prefix=./schemas -ignore=.*\.md ./schemas/...
