@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/swag"
 	"github.com/kr/pretty"
 	. "github.com/smartystreets/goconvey/convey"
 )

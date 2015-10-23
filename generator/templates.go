@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"text/template"
 
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 //go:generate go-bindata -pkg=generator -ignore=.*\.sw? ./templates/...

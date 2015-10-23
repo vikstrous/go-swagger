@@ -4,9 +4,9 @@ import (
 	"mime"
 	"net/http"
 
-	"github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/httpkit"
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/httpkit"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 // NewValidation starts a new validation middleware

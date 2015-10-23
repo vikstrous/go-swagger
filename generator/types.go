@@ -5,14 +5,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-swagger/go-swagger/spec"
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 var goImports = map[string]string{
 	"inf.Dec":   "speter.net/go/exp/math/dec/inf",
 	"big.Int":   "math/big",
-	"swagger.*": "github.com/go-swagger/go-swagger/httpkit",
+	"swagger.*": "github.com/vikstrous/go-swagger/httpkit",
 }
 
 var zeroes = map[string]string{

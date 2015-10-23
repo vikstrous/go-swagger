@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/go-swagger/go-swagger/httpkit"
+	"github.com/vikstrous/go-swagger/httpkit"
 	"github.com/stretchr/testify/assert"
 )
 

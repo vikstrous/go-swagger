@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/go-swagger/go-swagger/spec"
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 // GenerateDefinition generates a model file for a schema defintion.
@@ -126,9 +126,9 @@ func makeGenDefinition(name, pkg string, schema spec.Schema, specDoc *spec.Docum
 	var defaultImports []string
 	if pg.GenSchema.HasValidations {
 		defaultImports = []string{
-			"github.com/go-swagger/go-swagger/errors",
-			"github.com/go-swagger/go-swagger/strfmt",
-			"github.com/go-swagger/go-swagger/httpkit/validate",
+			"github.com/vikstrous/go-swagger/errors",
+			"github.com/vikstrous/go-swagger/strfmt",
+			"github.com/vikstrous/go-swagger/httpkit/validate",
 		}
 	}
 	var extras []GenSchema

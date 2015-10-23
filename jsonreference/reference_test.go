@@ -28,7 +28,7 @@ package jsonreference
 import (
 	"testing"
 
-	"github.com/go-swagger/go-swagger/jsonpointer"
+	"github.com/vikstrous/go-swagger/jsonpointer"
 	"github.com/stretchr/testify/assert"
 )
 

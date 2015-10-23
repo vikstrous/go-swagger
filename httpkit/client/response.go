@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/go-swagger/go-swagger/client"
+	"github.com/vikstrous/go-swagger/client"
 )
 
 var _ client.Response = response{}

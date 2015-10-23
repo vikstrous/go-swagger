@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	intvalidate "github.com/go-swagger/go-swagger/internal/validate"
-	"github.com/go-swagger/go-swagger/spec"
-	"github.com/go-swagger/go-swagger/strfmt"
+	intvalidate "github.com/vikstrous/go-swagger/internal/validate"
+	"github.com/vikstrous/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/strfmt"
 	"github.com/stretchr/testify/assert"
 )
 

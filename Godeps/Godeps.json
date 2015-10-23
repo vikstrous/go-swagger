@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/go-swagger/go-swagger",
+	"ImportPath": "github.com/vikstrous/go-swagger",
 	"GoVersion": "go1.5.1",
 	"Packages": [
 		"./..."

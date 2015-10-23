@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/tools/go/loader"
 
-	"github.com/go-swagger/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/spec"
 )
 
 type responseTypable struct {

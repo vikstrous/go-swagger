@@ -3,9 +3,9 @@ package validate
 import (
 	"reflect"
 
-	"github.com/go-swagger/go-swagger/httpkit/validate"
-	"github.com/go-swagger/go-swagger/spec"
-	"github.com/go-swagger/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/httpkit/validate"
+	"github.com/vikstrous/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/strfmt"
 )
 
 type formatValidator struct {

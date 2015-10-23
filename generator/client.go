@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-swagger/go-swagger/swag"
+	"github.com/vikstrous/go-swagger/swag"
 )
 
 // GenerateClient generates a client library for a swagger spec document.

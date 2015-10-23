@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/go-swagger/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/errors"
 )
 
 // Default is the default formats registry

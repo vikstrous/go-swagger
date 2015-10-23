@@ -5,7 +5,7 @@ Pseudo middleware handler
   import (
   	"net/http"
 
-  	"github.com/go-swagger/go-swagger/errors"
+  	"github.com/vikstrous/go-swagger/errors"
   	"github.com/gorilla/context"
   )
 

@@ -6,10 +6,10 @@ package user
 import (
 	"net/http"
 
-	"github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/httpkit/middleware"
+	"github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/httpkit/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/generated/models"
+	"github.com/vikstrous/go-swagger/examples/generated/models"
 )
 
 // CreateUsersWithArrayInputParams contains all the bound params for the create users with array input operation

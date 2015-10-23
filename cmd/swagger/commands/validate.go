@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	swaggererrors "github.com/go-swagger/go-swagger/errors"
-	"github.com/go-swagger/go-swagger/spec"
-	"github.com/go-swagger/go-swagger/strfmt"
-	"github.com/go-swagger/go-swagger/validate"
+	swaggererrors "github.com/vikstrous/go-swagger/errors"
+	"github.com/vikstrous/go-swagger/spec"
+	"github.com/vikstrous/go-swagger/strfmt"
+	"github.com/vikstrous/go-swagger/validate"
 )
 
 // ValidateSpec is a command that validates a swagger document
