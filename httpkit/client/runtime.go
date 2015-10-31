@@ -29,7 +29,7 @@ type Runtime struct {
 }
 
 // New creates a new default runtime for a swagger api client.
-func New(swaggerSpec *spec.Document) *Runtime {
+func New(swaggerSpec *spec.Document, host string) *Runtime {
 	var rt Runtime
 	rt.DefaultMediaType = httpkit.JSONMime
 	rt.Consumers = map[string]httpkit.Consumer{
@@ -41,7 +41,7 @@ func New(swaggerSpec *spec.Document) *Runtime {
 	rt.Spec = swaggerSpec
 	rt.Transport = http.DefaultTransport
 	rt.client = http.DefaultClient
-	rt.Host = swaggerSpec.Host()
+	rt.Host = host
 	rt.BasePath = swaggerSpec.BasePath()
 	rt.methodsAndPaths = make(map[string]methodAndPath)
 	for mth, pathItem := range rt.Spec.Operations() {
