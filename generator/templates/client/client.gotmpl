@@ -43,7 +43,8 @@ func (a *Client) {{ pascalize .Name }}(params {{ pascalize .Name }}Params) {{ if
   if err != nil {
     return {{ if .SuccessResponse }}{{ if .SuccessResponse.Schema }}nil, {{end}}{{ end }}err
   }
-  return {{ if .SuccessResponse }}{{ if .SuccessResponse.Schema }}result.(*{{ .SuccessResponse.Schema.GoType }}), {{ end }}{{ end }}nil
+
+  return {{ if .SuccessResponse }}{{ if .SuccessResponse.Schema }}{{ if .SuccessResponse.Schema.IsComplexObject | not }}&{{ end }}result.(*{{ pascalize .SuccessResponse.Name }}).Payload, {{ end }}{{ end }}nil
 }
 {{ end }}
 

@@ -3,7 +3,6 @@ package client
 import (
 	"fmt"
 	"net/http"
-	"path/filepath"
 
 	"github.com/vikstrous/go-swagger/client"
 	"github.com/vikstrous/go-swagger/httpkit"
@@ -22,6 +21,8 @@ type Runtime struct {
 	Host             string
 	BasePath         string
 	Formats          strfmt.Registry
+	Username         string
+	Password         string
 
 	client          *http.Client
 	methodsAndPaths map[string]methodAndPath
@@ -72,9 +73,9 @@ func (r *Runtime) Submit(operationID string, params client.RequestWriter, readRe
 
 	req, err := request.BuildHTTP(r.Producers[r.DefaultMediaType], r.Formats)
 	// TODO: work out scheme based on the operations and the default scheme
-	req.URL.Scheme = "http"
+	req.URL.Scheme = "https"
 	req.URL.Host = r.Host
-	req.URL.Path = filepath.Join(r.BasePath, req.URL.Host)
+	req.SetBasicAuth(r.Username, r.Password)
 	if err != nil {
 		return nil, err
 	}

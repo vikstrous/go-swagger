@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/vikstrous/go-swagger/cmd/swagger/commands"
 	"github.com/jessevdk/go-flags"
+	"github.com/vikstrous/go-swagger/cmd/swagger/commands"
 )
 
 var opts struct{}

@@ -23,7 +23,10 @@ func ({{ .ReceiverName }} *{{ pascalize .Name }}) readResponse(response client.R
   {{ end }}
   {{ if .Schema }}
   // response payload
-  if err := consumer.Consume(response.Body(), {{ if not .Schema.IsComplexObject }}&{{ end}}{{ .ReceiverName }}.Payload); err != nil {
+  {{ if .Schema.IsComplexObject }}
+    {{ .ReceiverName }}.Payload = new({{ .Schema.GoType }})
+  {{ end }}
+  if err := consumer.Consume(response.Body(), {{ if not .Schema.IsComplexObject }}&{{ end }}{{ .ReceiverName }}.Payload); err != nil {
     return err
   }
   {{ end }}
